@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF171414"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/LogOutButton"
+        android:layout_width="98dp"
+        android:layout_height="37dp"
+        android:onClick="logout"
+        android:text="@string/log_out_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/DashboardMain"
+        android:layout_width="256dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="@string/dashboard_main"
+        android:textAlignment="center"
+        android:textColor="#FBF4F4"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/UploadTTMain"
+        android:layout_width="161dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/upload_time_table_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DashboardMain"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="TTopen"
+        />
+
+    <Button
+        android:id="@+id/ViewTTMain"
+        android:layout_width="187dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/view_time_table_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DashboardMain"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="TTopen2"
+        />
+
+    <Button
+        android:id="@+id/ChatmateMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/vbot_chatmate_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UploadTTMain"
+        android:onClick="ChatmateOpener"
+        />
+
+    <Button
+        android:id="@+id/ViewNotesMain"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/view_notes_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChatmateMain"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/DiscussionMain"
+        android:layout_width="217dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/discussion_forum_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UploadNotesMain"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/VmartMain"
+        android:layout_width="176dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/vmart_essentials_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DiscussionMain"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/UploadNotesMain"
+        android:layout_width="202dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/upload_class_notes_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ViewNotesMain"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChatmateMain"
+        app:layout_constraintVertical_bias="0.002"
+        android:onClick="CNUploader"
+        />
+
+    <Button
+        android:id="@+id/TeacherMain"
+        android:layout_width="165dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/teacher_contact_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/VmartMain"
+        app:layout_constraintTop_toBottomOf="@+id/DiscussionMain"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/RightsMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/all_rights_reserved_main"
+        android:textColor="#EAE1E1"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HelpMain"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/HelpMain"
+        android:layout_width="197dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/help_and_support_main"
+        android:textAlignment="center"
+        android:textColor="#F4EAEA"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VBOTMain"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <Button
+        android:id="@+id/VBOTMain"
+        android:layout_width="199dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/vtop_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VmartMain"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/PrivacyMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/privacy_policy_main"
+        android:textColor="#EAE4E4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HelpMain"
+        app:layout_constraintVertical_bias="0.0"
+        android:onClick="privacy"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

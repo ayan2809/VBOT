@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">VBOT</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_to_vbot_register">Welcome to VBOT</string>
+    <string name="create_new_account_register">Create New Account</string>
+    <string name="full_name_register">Full Name</string>
+    <string name="vit_email_id_register">VIT Email ID</string>
+    <string name="phone_number_register">Phone Number</string>
+    <string name="password_register">Password</string>
+    <string name="already_registered_log_in_register">Already Registered? Log In</string>
+    <string name="sign_up_register">SIGN UP</string>
+    <string name="welcome_to_vbot_login">Welcome to VBOT</string>
+    <string name="vit_email_id_login">VIT Email ID</string>
+    <string name="password_login">Password</string>
+    <string name="not_registered_yet_sign_up_login">Not Registered Yet? Sign Up</string>
+    <string name="sign_in_login">SIGN IN</string>
+    <string name="log_out_main">LOG OUT</string>
+    <string name="dashboard_main">Dashboard</string>
+    <string name="upload_time_table_main">Upload Time Table</string>
+    <string name="view_time_table_main">View Time Table</string>
+    <string name="vbot_chatmate_main">VBOT Chatmate</string>
+    <string name="view_notes_main">View Notes</string>
+    <string name="discussion_forum_main">Discussion Forum</string>
+    <string name="vmart_essentials_main">Vmart Essentials</string>
+    <string name="upload_class_notes_main">Upload Class Notes</string>
+    <string name="teacher_contact_main">Teacher Contact</string>
+    <string name="all_rights_reserved_main">All Rights Reserved</string>
+    <string name="help_and_support_main">Help and Support</string>
+    <string name="vtop_main">VTOP</string>
+    <string name="privacy_policy_main">Privacy Policy</string>
+    <string name="title_activity_privacy__policy">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicy</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="privacy_policy_privacy">Privacy Policy</string>
+    <string name="textview_privacy">The VBOT application is completely free and does not contain any ads. The VTOP
+        portal service is provided by VIT and not the ownership of the developers. The developers also do not store any
+        data of the user like the password or anything. Whatever is stored in our database is done in encrypted form. The application
+        is a third party service which means its not official of VIT. For more info on the developers visit the Help and support
+        of the app. Thank You.
+    </string>
+    <string name="todo_privacy">TODO</string>
+    <string name="time_table_uploader_TT">Time Table Uploader</string>
+    <string name="time_table_uploader_TT_2">Time Table Viewer</string>
+    <string name="ask_me_chatmate">Ask me</string>
+    <string name="ask_chatmate">Ask Chatmate</string>
+    <string name="class_notes_uploader_CN">Class Notes Uploader</string>
+</resources>

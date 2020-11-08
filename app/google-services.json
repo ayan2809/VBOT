@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1068226223427",
+    "firebase_url": "https://vbot-fbc75.firebaseio.com",
+    "project_id": "vbot-fbc75",
+    "storage_bucket": "vbot-fbc75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068226223427:android:c3e6fb242b50918ae8a3f6",
+        "android_client_info": {
+          "package_name": "com.example.vbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068226223427-2n2nvjd84fp4phentmpekh3gdjpnts28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXDyrhozga_WuDoK1FibEBLIaM3fj4bGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068226223427-2n2nvjd84fp4phentmpekh3gdjpnts28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
